@@ -1,0 +1,10 @@
+vote function:
+1) Check if input is valid
+    a) Valid # of arguments (1)
+    b) That argument is a string representing a candidate
+2) If the name is invalid, return false
+3) If the name is valid, uptate that candidate's total vote count and return true
+
+print_winner function:
+1) Print name of candidate with the most votes then print a new line
+2) If there is a tie, print both candidates names but seperated by a new line

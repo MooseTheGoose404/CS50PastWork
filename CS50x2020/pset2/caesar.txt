@@ -1,0 +1,9 @@
+1) Make sure only one command line argument was written
+2) Make sure all entered arguments are valid
+3) Turn command line arguments into ints
+4) Get plaintext from user
+5) Go through each letter of plaintext (array + loop)
+    a) If uppercase: rotate, keep case, print rotated
+    b) If lowercase: rotate, keep case, print rotated
+    c) If else: Print original 
+6) print newline

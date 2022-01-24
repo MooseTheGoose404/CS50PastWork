@@ -1,0 +1,7 @@
+
+
+1.Get height from user
+2.If height is not valid (Not in integer or not an integer 1-8) go back to step 1
+//Once valid height is inputed:
+3.On i times the loop has repeated, print '#' i times then start a new line
+4.Repeat this step until i (number of times loop has repeated) == height

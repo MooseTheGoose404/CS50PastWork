@@ -1,0 +1,19 @@
+
+:( print_winner prints name when someone has a majority
+    print_winner did not print winner of election
+:( print_winner returns true when someone has a majority
+    print_winner did not print winner and then return true
+:( print_winner returns false when nobody has a majority
+    print_winner did not return false
+:( print_winner returns false when leader has exactly 50% of vote
+    print_winner did not return false
+    
+    
+:( find_min returns minimum number of votes for candidate
+    find_min did not identify correct minimum
+:( find_min returns minimum when all candidates are tied
+    find_min did not identify correct minimum
+:( find_min ignores eliminated candidates
+    find_min did not identify correct minimum
+
+

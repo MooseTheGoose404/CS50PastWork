@@ -1,0 +1,15 @@
+sort1 uses: Bubble Sort
+
+How do you know?: sort1 uses bubble sort. Since in omega notation, bubble sort can be represented by O(n) while selection sort can be represented by O(n^2) I can infer that in the best case scenario (all numbers are sorted)
+that bubble sort will be faster than selection sort. I've already found that sort2 is merge sort leaving just sort1 and sort3. When timing both algorithms sorting the sorted.txt files, sort1 is faster than sort2 especially
+when sorting the largest sorted.txt file which is sorted50000.txt. This concludes that sort1 is bubble sort.
+
+sort2 uses: Merge Sort
+
+How do you know?: sort2 uses merge sort. I know this because in big O notation, merge sort can be represented by O(nlogn), while bubble sort and selection sort can be represented by O(n^2). This means that in the worst case scenario,
+(all numbers being reversed), merge sort is faster than bubble sort and selection sort. When timining how fast each algorithm sorts each reversed.txt file, sort2 is the fastest compared to sort1 and sort3 concluding that sort2
+is merge sort.
+
+sort3 uses: Selection Sort
+
+How do you know?: sort3 uses selection sort. I know this because I have already concluded that sort1 is bubble sort, sort2 is merge sort therefore this leaves sort3 to be selection sort.
